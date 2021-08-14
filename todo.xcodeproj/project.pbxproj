@@ -16,6 +16,7 @@
 		8936476B26C75B7600C7E7B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8936476926C75B7600C7E7B5 /* LaunchScreen.storyboard */; };
 		8936477626C75B7600C7E7B5 /* todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8936477526C75B7600C7E7B5 /* todoTests.swift */; };
 		8936478126C75B7700C7E7B5 /* todoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8936478026C75B7700C7E7B5 /* todoUITests.swift */; };
+		8936479226C760F000C7E7B5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8936479126C760F000C7E7B5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		8936477C26C75B7700C7E7B5 /* todoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8936478026C75B7700C7E7B5 /* todoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoUITests.swift; sourceTree = "<group>"; };
 		8936478226C75B7700C7E7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8936479126C760F000C7E7B5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B4A7AC7B88CEEE5AB1DEA38D /* Pods_todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 		8936475226C75B7300C7E7B5 = {
 			isa = PBXGroup;
 			children = (
+				8936479126C760F000C7E7B5 /* README.md */,
 				8936475D26C75B7300C7E7B5 /* todo */,
 				8936477426C75B7600C7E7B5 /* todoTests */,
 				8936477F26C75B7700C7E7B5 /* todoUITests */,
@@ -259,6 +262,7 @@
 			files = (
 				8936476B26C75B7600C7E7B5 /* LaunchScreen.storyboard in Resources */,
 				8936476826C75B7600C7E7B5 /* Assets.xcassets in Resources */,
+				8936479226C760F000C7E7B5 /* README.md in Resources */,
 				8936476626C75B7300C7E7B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
