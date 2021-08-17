@@ -6,10 +6,7 @@ opt_in_rules:
   - comma
   - control_statement
   - empty_count
-  - explicit_acl
   - extension_access_modifier
-  - force_unwrapping
-  - function_default_parameter_at_end
   - overridden_super_call
   - trailing_newline
   - unneeded_parentheses_in_closure_argument
@@ -20,16 +17,23 @@ opt_in_rules:
 
 # paths to include during linting. `--path` is ignored if present.
 included: 
-  - todo
-  - todoTests
-  - todoUITests 
+  - ToDoOrganizer
+  - ToDoOrganizerTests
 
 # paths to ignore during linting. Takes precedence over `included`.
-excluded: 
+excluded:
   - Pods
 
 # Rules run by `swiftlint analyze` (experimental)
-analyzer_rules: 
+analyzer_rules:
   - explicit_self
+
+line_length:
+    warning: 150
+    error: 180
+    ignores_function_declarations: true
+    ignores_comments: true
+    ignores_interpolated_strings: true
+    ignores_urls: true
 
 reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji, sonarqube, markdown)
