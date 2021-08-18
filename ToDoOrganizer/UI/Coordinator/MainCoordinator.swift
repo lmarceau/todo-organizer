@@ -7,6 +7,10 @@
 
 import UIKit
 
+// TODO: Unit tests, String, shouldChangeCharactersIn
+// TODO: Remove swiftlint
+// TODO: Test on real phone + other type of simulator
+
 class MainCoordinator: Coordinator {
 
     var childCoordinators = [Coordinator]()
@@ -23,8 +27,8 @@ class MainCoordinator: Coordinator {
 
 private extension MainCoordinator {
     func showOrganizerView() {
-        let organizerViewController = OrganizerViewController.instantiate()
-        organizerViewController.hidesBottomBarWhenPushed = true
+        let organizerViewModel = OrganizerViewModel()
+        let organizerViewController = OrganizerViewController.instantiate(withModel: organizerViewModel)
         navigationController.pushViewController(organizerViewController, animated: false)
     }
 }

@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  ToDoOrganizer
+
+  Created by Laurie Marceau on 2021-08-17.
+  
+*/
+
+// OrganizerViewController
+"organizer.view.title"="ToDo Organizer";
+
+// TextField
+"organizer.textfield.placeholder"="Please enter a ToDo";
+"organizer.textfield.a11yId"="OrganizerTextField";
+"organizer.textfield.a11yLabel"="Field to enter an item";
+
+// Button
+"organizer.button.a11yId"="OrganizerTextField";
+"organizer.button.a11yLabel"="Add item";
+"organizer.button.title"="Add";

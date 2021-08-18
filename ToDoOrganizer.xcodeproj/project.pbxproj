@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		4363656ABD916CB5139B10C2 /* Pods_ToDoOrganizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC2F73AC58F07150C11C15E /* Pods_ToDoOrganizer.framework */; };
+		89482DCA26CC74FC006841F6 /* OrganizerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DC926CC74FC006841F6 /* OrganizerTextField.swift */; };
+		89482DCD26CC778A006841F6 /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DCC26CC778A006841F6 /* String+Localizable.swift */; };
+		89482DD426CC7889006841F6 /* OrganizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DD326CC7889006841F6 /* OrganizerViewModel.swift */; };
+		89482DD626CC78F7006841F6 /* OrganizerTextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DD526CC78F7006841F6 /* OrganizerTextFieldViewModel.swift */; };
+		89482DD826CC7B4D006841F6 /* CanDismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DD726CC7B4D006841F6 /* CanDismissKeyboard.swift */; };
+		89482DDB26CC7EDC006841F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89482DDD26CC7EDC006841F6 /* Localizable.strings */; };
+		89482DE126CC806F006841F6 /* OrganizerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DE026CC806F006841F6 /* OrganizerButton.swift */; };
+		89482DE326CC8428006841F6 /* OrganizerRoundedButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DE226CC8428006841F6 /* OrganizerRoundedButtonViewModel.swift */; };
+		89482DE526CC85B9006841F6 /* UIViewController+NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DE426CC85B9006841F6 /* UIViewController+NavigationBar.swift */; };
+		89482DE726CC8669006841F6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DE626CC8669006841F6 /* BaseViewController.swift */; };
+		89482DEA26CC886B006841F6 /* OrganizerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DE926CC886B006841F6 /* OrganizerItem.swift */; };
+		89482DEC26CC8949006841F6 /* OrganizerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DEB26CC8949006841F6 /* OrganizerDataSource.swift */; };
+		89482DEE26CC8C36006841F6 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DED26CC8C36006841F6 /* String+Validation.swift */; };
+		89482DF026CC97CA006841F6 /* OrganizerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DEF26CC97CA006841F6 /* OrganizerTableView.swift */; };
+		89482DF226CCA37C006841F6 /* Notification+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DF126CCA37C006841F6 /* Notification+Keyboard.swift */; };
 		89561A3326CC315D00844D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89561A3226CC315D00844D82 /* AppDelegate.swift */; };
 		89561A3526CC315D00844D82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89561A3426CC315D00844D82 /* SceneDelegate.swift */; };
 		89561A3726CC315D00844D82 /* OrganizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89561A3626CC315D00844D82 /* OrganizerViewController.swift */; };
@@ -33,6 +48,21 @@
 
 /* Begin PBXFileReference section */
 		5C6BD1E86ACD529F1479AE5A /* Pods-ToDoOrganizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoOrganizer.debug.xcconfig"; path = "Target Support Files/Pods-ToDoOrganizer/Pods-ToDoOrganizer.debug.xcconfig"; sourceTree = "<group>"; };
+		89482DC926CC74FC006841F6 /* OrganizerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerTextField.swift; sourceTree = "<group>"; };
+		89482DCC26CC778A006841F6 /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		89482DD326CC7889006841F6 /* OrganizerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerViewModel.swift; sourceTree = "<group>"; };
+		89482DD526CC78F7006841F6 /* OrganizerTextFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerTextFieldViewModel.swift; sourceTree = "<group>"; };
+		89482DD726CC7B4D006841F6 /* CanDismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanDismissKeyboard.swift; sourceTree = "<group>"; };
+		89482DDC26CC7EDC006841F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		89482DE026CC806F006841F6 /* OrganizerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerButton.swift; sourceTree = "<group>"; };
+		89482DE226CC8428006841F6 /* OrganizerRoundedButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerRoundedButtonViewModel.swift; sourceTree = "<group>"; };
+		89482DE426CC85B9006841F6 /* UIViewController+NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationBar.swift"; sourceTree = "<group>"; };
+		89482DE626CC8669006841F6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		89482DE926CC886B006841F6 /* OrganizerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerItem.swift; sourceTree = "<group>"; };
+		89482DEB26CC8949006841F6 /* OrganizerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerDataSource.swift; sourceTree = "<group>"; };
+		89482DED26CC8C36006841F6 /* String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		89482DEF26CC97CA006841F6 /* OrganizerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerTableView.swift; sourceTree = "<group>"; };
+		89482DF126CCA37C006841F6 /* Notification+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Keyboard.swift"; sourceTree = "<group>"; };
 		89561A2F26CC315D00844D82 /* ToDoOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89561A3226CC315D00844D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89561A3426CC315D00844D82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +110,55 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		89482DC726CC74E3006841F6 /* Building Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				89482DE626CC8669006841F6 /* BaseViewController.swift */,
+				89482DEF26CC97CA006841F6 /* OrganizerTableView.swift */,
+				89482DDF26CC8065006841F6 /* Button */,
+				89482DDE26CC805C006841F6 /* TextField */,
+			);
+			path = "Building Blocks";
+			sourceTree = "<group>";
+		};
+		89482DCB26CC776C006841F6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89482DF126CCA37C006841F6 /* Notification+Keyboard.swift */,
+				89482DED26CC8C36006841F6 /* String+Validation.swift */,
+				89482DCC26CC778A006841F6 /* String+Localizable.swift */,
+				89482DE426CC85B9006841F6 /* UIViewController+NavigationBar.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		89482DDE26CC805C006841F6 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				89482DC926CC74FC006841F6 /* OrganizerTextField.swift */,
+				89482DD526CC78F7006841F6 /* OrganizerTextFieldViewModel.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		89482DDF26CC8065006841F6 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				89482DE026CC806F006841F6 /* OrganizerButton.swift */,
+				89482DE226CC8428006841F6 /* OrganizerRoundedButtonViewModel.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		89482DE826CC885E006841F6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				89482DE926CC886B006841F6 /* OrganizerItem.swift */,
+				89482DEB26CC8949006841F6 /* OrganizerDataSource.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		89561A2626CC315D00844D82 = {
 			isa = PBXGroup;
 			children = (
@@ -105,10 +184,12 @@
 		89561A3126CC315D00844D82 /* ToDoOrganizer */ = {
 			isa = PBXGroup;
 			children = (
+				89482DE826CC885E006841F6 /* Data */,
 				89561A6426CC329000844D82 /* UI */,
 				89561A6326CC328100844D82 /* Resources */,
 				89561A3226CC315D00844D82 /* AppDelegate.swift */,
 				89561A3426CC315D00844D82 /* SceneDelegate.swift */,
+				89561A3D26CC316100844D82 /* LaunchScreen.storyboard */,
 				89561A4026CC316100844D82 /* Info.plist */,
 			);
 			path = ToDoOrganizer;
@@ -126,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				89561A3B26CC316100844D82 /* Assets.xcassets */,
+				89482DDD26CC7EDC006841F6 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -133,10 +215,11 @@
 		89561A6426CC329000844D82 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				89482DCB26CC776C006841F6 /* Extensions */,
+				89482DC726CC74E3006841F6 /* Building Blocks */,
 				89561A6E26CC365B00844D82 /* Coordinator */,
-				89561A6B26CC337000844D82 /* Protocols */,
-				89561A3D26CC316100844D82 /* LaunchScreen.storyboard */,
 				89561A6626CC32BE00844D82 /* OrganizerView */,
+				89561A6B26CC337000844D82 /* Protocols */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -146,6 +229,7 @@
 			children = (
 				89561A3826CC315D00844D82 /* OrganizerView.storyboard */,
 				89561A3626CC315D00844D82 /* OrganizerViewController.swift */,
+				89482DD326CC7889006841F6 /* OrganizerViewModel.swift */,
 			);
 			path = OrganizerView;
 			sourceTree = "<group>";
@@ -153,6 +237,7 @@
 		89561A6B26CC337000844D82 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				89482DD726CC7B4D006841F6 /* CanDismissKeyboard.swift */,
 				89561A6C26CC338100844D82 /* CoordinatorProtocol.swift */,
 				89561A7126CC36EA00844D82 /* Storyboarded.swift */,
 			);
@@ -258,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89561A6A26CC32EA00844D82 /* .swiftlint.yml in Resources */,
+				89482DDB26CC7EDC006841F6 /* Localizable.strings in Resources */,
 				89561A3F26CC316100844D82 /* LaunchScreen.storyboard in Resources */,
 				89561A3C26CC316100844D82 /* Assets.xcassets in Resources */,
 				89561A6826CC32E000844D82 /* README.md in Resources */,
@@ -322,12 +408,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89482DEC26CC8949006841F6 /* OrganizerDataSource.swift in Sources */,
+				89482DCA26CC74FC006841F6 /* OrganizerTextField.swift in Sources */,
 				89561A3726CC315D00844D82 /* OrganizerViewController.swift in Sources */,
 				89561A3326CC315D00844D82 /* AppDelegate.swift in Sources */,
 				89561A6D26CC338100844D82 /* CoordinatorProtocol.swift in Sources */,
+				89482DF226CCA37C006841F6 /* Notification+Keyboard.swift in Sources */,
 				89561A7026CC366300844D82 /* MainCoordinator.swift in Sources */,
+				89482DE726CC8669006841F6 /* BaseViewController.swift in Sources */,
+				89482DF026CC97CA006841F6 /* OrganizerTableView.swift in Sources */,
+				89482DE126CC806F006841F6 /* OrganizerButton.swift in Sources */,
 				89561A3526CC315D00844D82 /* SceneDelegate.swift in Sources */,
+				89482DEE26CC8C36006841F6 /* String+Validation.swift in Sources */,
 				89561A7226CC36EA00844D82 /* Storyboarded.swift in Sources */,
+				89482DD826CC7B4D006841F6 /* CanDismissKeyboard.swift in Sources */,
+				89482DE526CC85B9006841F6 /* UIViewController+NavigationBar.swift in Sources */,
+				89482DD426CC7889006841F6 /* OrganizerViewModel.swift in Sources */,
+				89482DD626CC78F7006841F6 /* OrganizerTextFieldViewModel.swift in Sources */,
+				89482DCD26CC778A006841F6 /* String+Localizable.swift in Sources */,
+				89482DEA26CC886B006841F6 /* OrganizerItem.swift in Sources */,
+				89482DE326CC8428006841F6 /* OrganizerRoundedButtonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +449,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		89482DDD26CC7EDC006841F6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89482DDC26CC7EDC006841F6 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		89561A3826CC315D00844D82 /* OrganizerView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
