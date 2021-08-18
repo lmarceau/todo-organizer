@@ -12,7 +12,7 @@ Todo organizer that takes a string and adds it to a list view
 
 ### Installation
 1. Clone the repo
-2. Open the project from the .xcodeproj
+2. Open the project from the `.xcodeproj`
 3. Run the ToDoOrganizer target on an iPhone simulator
 
 ## Architecture

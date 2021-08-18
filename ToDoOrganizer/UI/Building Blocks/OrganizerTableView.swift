@@ -8,7 +8,6 @@
 import UIKit
 
 class OrganizerTableView: UITableView {
-
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         tableFooterView = UIView()

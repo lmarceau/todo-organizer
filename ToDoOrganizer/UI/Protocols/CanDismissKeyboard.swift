@@ -55,18 +55,18 @@ extension CanDismissKeyboard where Self: UIViewController {
     func keyboardNotification(_ notification: NSNotification) {}
 
     mutating func keyboardWillShow() {
-        if self.keyboardDismissTapGesture == nil {
-            let keyboardDismissTapGesture = UITapGestureRecognizer(target: self.view,
-                                                                   action: #selector(self.view.endEditing(_:)))
-            self.view.addGestureRecognizer(keyboardDismissTapGesture)
-            self.keyboardDismissTapGesture = keyboardDismissTapGesture
+        if keyboardDismissTapGesture == nil {
+            let gesture = UITapGestureRecognizer(target: view,
+                                                 action: #selector(view.endEditing(_:)))
+            view.addGestureRecognizer(gesture)
+            keyboardDismissTapGesture = gesture
         }
     }
 
     mutating func keyboardWillHide() {
-        if let gesture = self.keyboardDismissTapGesture {
-            self.view.removeGestureRecognizer(gesture)
-            self.keyboardDismissTapGesture = nil
+        if let gesture = keyboardDismissTapGesture {
+            view.removeGestureRecognizer(gesture)
+            keyboardDismissTapGesture = nil
         }
     }
 }

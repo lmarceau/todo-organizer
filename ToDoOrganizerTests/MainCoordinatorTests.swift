@@ -27,7 +27,7 @@ class MainCoordinatorTests: XCTestCase {
     }
 
     func test_coordinatorStart_showOrganizerView() {
-        self.mainCoordinator.start()
+        mainCoordinator.start()
 
         guard (navigationController.viewControllerPushed as? OrganizerViewController) != nil else {
             XCTFail("viewControllerPushed is not a OrganizerViewController"); return

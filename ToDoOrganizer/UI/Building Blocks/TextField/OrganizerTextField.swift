@@ -19,7 +19,7 @@ class OrganizerTextField: UITextField {
 
     /// Returns validated text if present
     func getValidatedText() -> String? {
-        let savedText = self.text
+        let savedText = text
         guard savedText?.isValid() ?? false else {
             return nil
         }

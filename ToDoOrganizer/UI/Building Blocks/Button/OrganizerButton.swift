@@ -41,9 +41,9 @@ public class OrganizerRoundedButton: UIButton {
     public override var isHighlighted: Bool {
         didSet {
             if isHighlighted {
-                self.backgroundColor = highlightedFillColor
+                backgroundColor = highlightedFillColor
             } else {
-                self.backgroundColor = fillColor
+                backgroundColor = fillColor
             }
         }
     }
