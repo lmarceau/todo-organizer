@@ -14,7 +14,9 @@ class OrganizerViewController: BaseViewController, Storyboarded, CanDismissKeybo
 
     private var viewModel: OrganizerViewModel!
     private var dataSource: OrganizerDataSource!
+
     private let bottomButtonConstraintConstant: CGFloat = 16
+    private let textFieldDelegate = OrganizerTextFieldDelegate()
 
     @IBOutlet private weak var organizerTextField: OrganizerTextField!
     @IBOutlet private weak var organizerTableView: OrganizerTableView!
@@ -58,7 +60,7 @@ private extension OrganizerViewController {
 
     func setupUI() {
         title = viewModel.title
-        organizerTextField.configure(viewModel: viewModel.textfieldViewModel)
+        organizerTextField.configure(viewModel: viewModel.textfieldViewModel, delegate: textFieldDelegate)
         organizerAddButton.configure(viewModel: viewModel.buttonViewModel)
     }
 

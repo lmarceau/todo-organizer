@@ -7,10 +7,6 @@
 
 import UIKit
 
-// TODO: Unit tests, String, shouldChangeCharactersIn
-// TODO: Remove swiftlint
-// TODO: Test on real phone + other type of simulator
-
 class MainCoordinator: Coordinator {
 
     var childCoordinators = [Coordinator]()

@@ -15,8 +15,7 @@ class OrganizerViewModel {
         OrganizerTextFieldViewModel(keyboardType: .default,
                                     textEntryPlaceholder: "organizer.textfield.placeholder".localized(),
                                     textEntryA11yId: "organizer.textfield.a11yId".localized(),
-                                    textEntryA11yLabel: "organizer.textfield.a11yLabel".localized(),
-                                    maxNumberOfCharacter: 30)
+                                    textEntryA11yLabel: "organizer.textfield.a11yLabel".localized())
     }
 
     var buttonViewModel: OrganizerRoundedButtonViewModel {

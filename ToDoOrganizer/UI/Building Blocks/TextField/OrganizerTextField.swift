@@ -9,14 +9,12 @@ import UIKit
 
 class OrganizerTextField: UITextField {
 
-    private var maxNumberOfCharacter: Int?
-
-    func configure(viewModel: OrganizerTextFieldViewModel) {
-        delegate = self
+    func configure(viewModel: OrganizerTextFieldViewModel,
+                   delegate: UITextFieldDelegate) {
+        self.delegate = delegate
         keyboardType = viewModel.keyboardType
         placeholder = viewModel.textEntryPlaceholder
         accessibilityIdentifier = viewModel.textEntryA11yId
-        maxNumberOfCharacter = viewModel.maxNumberOfCharacter
     }
 
     /// Returns validated text if present
@@ -28,27 +26,5 @@ class OrganizerTextField: UITextField {
         text?.removeAll()
 
         return savedText
-    }
-}
-
-extension OrganizerTextField: UITextFieldDelegate {
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
-    }
-
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        endEditing(true)
-    }
-
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        guard let textFieldText = textField.text,
-            let rangeOfTextToReplace = Range(range, in: textFieldText),
-            let max = maxNumberOfCharacter else {
-                return false
-        }
-        let substringToReplace = textFieldText[rangeOfTextToReplace]
-        let count = textFieldText.count - substringToReplace.count + string.count
-        return count <= max
     }
 }

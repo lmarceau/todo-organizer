@@ -12,5 +12,4 @@ struct OrganizerTextFieldViewModel {
     var textEntryPlaceholder: String
     var textEntryA11yId: String
     var textEntryA11yLabel: String
-    var maxNumberOfCharacter: Int
 }

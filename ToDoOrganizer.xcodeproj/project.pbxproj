@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4363656ABD916CB5139B10C2 /* Pods_ToDoOrganizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC2F73AC58F07150C11C15E /* Pods_ToDoOrganizer.framework */; };
 		89482DCA26CC74FC006841F6 /* OrganizerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DC926CC74FC006841F6 /* OrganizerTextField.swift */; };
 		89482DCD26CC778A006841F6 /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DCC26CC778A006841F6 /* String+Localizable.swift */; };
 		89482DD426CC7889006841F6 /* OrganizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DD326CC7889006841F6 /* OrganizerViewModel.swift */; };
@@ -23,6 +22,13 @@
 		89482DEE26CC8C36006841F6 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DED26CC8C36006841F6 /* String+Validation.swift */; };
 		89482DF026CC97CA006841F6 /* OrganizerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DEF26CC97CA006841F6 /* OrganizerTableView.swift */; };
 		89482DF226CCA37C006841F6 /* Notification+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DF126CCA37C006841F6 /* Notification+Keyboard.swift */; };
+		89482DF426CCA64F006841F6 /* OrganizerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DF326CCA64F006841F6 /* OrganizerViewModelTests.swift */; };
+		89482DF626CCA73A006841F6 /* OrganizerDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DF526CCA73A006841F6 /* OrganizerDataSourceTests.swift */; };
+		89482DF826CCA9EB006841F6 /* MainCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DF726CCA9EB006841F6 /* MainCoordinatorTests.swift */; };
+		89482DFB26CCAA21006841F6 /* UINavigationControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DFA26CCAA21006841F6 /* UINavigationControllerMock.swift */; };
+		89482DFD26CCAAC7006841F6 /* String+ValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DFC26CCAAC7006841F6 /* String+ValidationTests.swift */; };
+		89482DFF26CCABB8006841F6 /* OrganizerTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482DFE26CCABB8006841F6 /* OrganizerTextFieldTests.swift */; };
+		89482E0126CCAE85006841F6 /* OrganizerTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89482E0026CCAE85006841F6 /* OrganizerTextFieldDelegate.swift */; };
 		89561A3326CC315D00844D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89561A3226CC315D00844D82 /* AppDelegate.swift */; };
 		89561A3526CC315D00844D82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89561A3426CC315D00844D82 /* SceneDelegate.swift */; };
 		89561A3726CC315D00844D82 /* OrganizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89561A3626CC315D00844D82 /* OrganizerViewController.swift */; };
@@ -30,7 +36,6 @@
 		89561A3C26CC316100844D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89561A3B26CC316100844D82 /* Assets.xcassets */; };
 		89561A3F26CC316100844D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89561A3D26CC316100844D82 /* LaunchScreen.storyboard */; };
 		89561A6826CC32E000844D82 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 89561A6726CC32E000844D82 /* README.md */; };
-		89561A6A26CC32EA00844D82 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 89561A6926CC32EA00844D82 /* .swiftlint.yml */; };
 		89561A6D26CC338100844D82 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89561A6C26CC338100844D82 /* CoordinatorProtocol.swift */; };
 		89561A7026CC366300844D82 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89561A6F26CC366300844D82 /* MainCoordinator.swift */; };
 		89561A7226CC36EA00844D82 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89561A7126CC36EA00844D82 /* Storyboarded.swift */; };
@@ -47,7 +52,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C6BD1E86ACD529F1479AE5A /* Pods-ToDoOrganizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoOrganizer.debug.xcconfig"; path = "Target Support Files/Pods-ToDoOrganizer/Pods-ToDoOrganizer.debug.xcconfig"; sourceTree = "<group>"; };
 		89482DC926CC74FC006841F6 /* OrganizerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerTextField.swift; sourceTree = "<group>"; };
 		89482DCC26CC778A006841F6 /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
 		89482DD326CC7889006841F6 /* OrganizerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerViewModel.swift; sourceTree = "<group>"; };
@@ -63,6 +67,13 @@
 		89482DED26CC8C36006841F6 /* String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
 		89482DEF26CC97CA006841F6 /* OrganizerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerTableView.swift; sourceTree = "<group>"; };
 		89482DF126CCA37C006841F6 /* Notification+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Keyboard.swift"; sourceTree = "<group>"; };
+		89482DF326CCA64F006841F6 /* OrganizerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerViewModelTests.swift; sourceTree = "<group>"; };
+		89482DF526CCA73A006841F6 /* OrganizerDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerDataSourceTests.swift; sourceTree = "<group>"; };
+		89482DF726CCA9EB006841F6 /* MainCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorTests.swift; sourceTree = "<group>"; };
+		89482DFA26CCAA21006841F6 /* UINavigationControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerMock.swift; sourceTree = "<group>"; };
+		89482DFC26CCAAC7006841F6 /* String+ValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ValidationTests.swift"; sourceTree = "<group>"; };
+		89482DFE26CCABB8006841F6 /* OrganizerTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerTextFieldTests.swift; sourceTree = "<group>"; };
+		89482E0026CCAE85006841F6 /* OrganizerTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerTextFieldDelegate.swift; sourceTree = "<group>"; };
 		89561A2F26CC315D00844D82 /* ToDoOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89561A3226CC315D00844D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89561A3426CC315D00844D82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,12 +85,9 @@
 		89561A4526CC316100844D82 /* ToDoOrganizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoOrganizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89561A4B26CC316100844D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89561A6726CC32E000844D82 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		89561A6926CC32EA00844D82 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		89561A6C26CC338100844D82 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		89561A6F26CC366300844D82 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		89561A7126CC36EA00844D82 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
-		CC66122F7A38061632599FD9 /* Pods-ToDoOrganizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoOrganizer.release.xcconfig"; path = "Target Support Files/Pods-ToDoOrganizer/Pods-ToDoOrganizer.release.xcconfig"; sourceTree = "<group>"; };
-		FAC2F73AC58F07150C11C15E /* Pods_ToDoOrganizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoOrganizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4363656ABD916CB5139B10C2 /* Pods_ToDoOrganizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,15 +108,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6AD8CCA52FA35449AACA687D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5C6BD1E86ACD529F1479AE5A /* Pods-ToDoOrganizer.debug.xcconfig */,
-				CC66122F7A38061632599FD9 /* Pods-ToDoOrganizer.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		89482DC726CC74E3006841F6 /* Building Blocks */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				89482DC926CC74FC006841F6 /* OrganizerTextField.swift */,
+				89482E0026CCAE85006841F6 /* OrganizerTextFieldDelegate.swift */,
 				89482DD526CC78F7006841F6 /* OrganizerTextFieldViewModel.swift */,
 			);
 			path = TextField;
@@ -159,16 +158,21 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		89482DF926CCAA0C006841F6 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				89482DFA26CCAA21006841F6 /* UINavigationControllerMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		89561A2626CC315D00844D82 = {
 			isa = PBXGroup;
 			children = (
 				89561A6726CC32E000844D82 /* README.md */,
-				89561A6926CC32EA00844D82 /* .swiftlint.yml */,
 				89561A3126CC315D00844D82 /* ToDoOrganizer */,
 				89561A4826CC316100844D82 /* ToDoOrganizerTests */,
 				89561A3026CC315D00844D82 /* Products */,
-				6AD8CCA52FA35449AACA687D /* Pods */,
-				DD8F4ECBA48BEE8FF874CF70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +202,12 @@
 		89561A4826CC316100844D82 /* ToDoOrganizerTests */ = {
 			isa = PBXGroup;
 			children = (
+				89482DF926CCAA0C006841F6 /* Mock */,
+				89482DF726CCA9EB006841F6 /* MainCoordinatorTests.swift */,
+				89482DF526CCA73A006841F6 /* OrganizerDataSourceTests.swift */,
+				89482DFE26CCABB8006841F6 /* OrganizerTextFieldTests.swift */,
+				89482DF326CCA64F006841F6 /* OrganizerViewModelTests.swift */,
+				89482DFC26CCAAC7006841F6 /* String+ValidationTests.swift */,
 				89561A4B26CC316100844D82 /* Info.plist */,
 			);
 			path = ToDoOrganizerTests;
@@ -252,14 +262,6 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
-		DD8F4ECBA48BEE8FF874CF70 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FAC2F73AC58F07150C11C15E /* Pods_ToDoOrganizer.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,11 +269,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89561A5926CC316100844D82 /* Build configuration list for PBXNativeTarget "ToDoOrganizer" */;
 			buildPhases = (
-				E486BCADB643ABB04FEC90BC /* [CP] Check Pods Manifest.lock */,
 				89561A2B26CC315D00844D82 /* Sources */,
 				89561A2C26CC315D00844D82 /* Frameworks */,
 				89561A2D26CC315D00844D82 /* Resources */,
-				89561A6226CC322F00844D82 /* Run Script - SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -314,6 +314,7 @@
 					};
 					89561A4426CC316100844D82 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 						TestTargetID = 89561A2E26CC315D00844D82;
 					};
 				};
@@ -342,7 +343,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89561A6A26CC32EA00844D82 /* .swiftlint.yml in Resources */,
 				89482DDB26CC7EDC006841F6 /* Localizable.strings in Resources */,
 				89561A3F26CC316100844D82 /* LaunchScreen.storyboard in Resources */,
 				89561A3C26CC316100844D82 /* Assets.xcassets in Resources */,
@@ -359,49 +359,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		89561A6226CC322F00844D82 /* Run Script - SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script - SwiftLint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
-		};
-		E486BCADB643ABB04FEC90BC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ToDoOrganizer-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89561A2B26CC315D00844D82 /* Sources */ = {
@@ -423,6 +380,7 @@
 				89561A7226CC36EA00844D82 /* Storyboarded.swift in Sources */,
 				89482DD826CC7B4D006841F6 /* CanDismissKeyboard.swift in Sources */,
 				89482DE526CC85B9006841F6 /* UIViewController+NavigationBar.swift in Sources */,
+				89482E0126CCAE85006841F6 /* OrganizerTextFieldDelegate.swift in Sources */,
 				89482DD426CC7889006841F6 /* OrganizerViewModel.swift in Sources */,
 				89482DD626CC78F7006841F6 /* OrganizerTextFieldViewModel.swift in Sources */,
 				89482DCD26CC778A006841F6 /* String+Localizable.swift in Sources */,
@@ -435,6 +393,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89482DFD26CCAAC7006841F6 /* String+ValidationTests.swift in Sources */,
+				89482DFF26CCABB8006841F6 /* OrganizerTextFieldTests.swift in Sources */,
+				89482DF626CCA73A006841F6 /* OrganizerDataSourceTests.swift in Sources */,
+				89482DF826CCA9EB006841F6 /* MainCoordinatorTests.swift in Sources */,
+				89482DFB26CCAA21006841F6 /* UINavigationControllerMock.swift in Sources */,
+				89482DF426CCA64F006841F6 /* OrganizerViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,7 +558,6 @@
 		};
 		89561A5A26CC316100844D82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C6BD1E86ACD529F1479AE5A /* Pods-ToDoOrganizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -614,7 +577,6 @@
 		};
 		89561A5B26CC316100844D82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC66122F7A38061632599FD9 /* Pods-ToDoOrganizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -637,6 +599,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LSP39KS8V;
 				INFOPLIST_FILE = ToDoOrganizerTests/Info.plist;
@@ -648,6 +611,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.laurie.ToDoOrganizerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoOrganizer.app/ToDoOrganizer";
@@ -659,6 +623,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LSP39KS8V;
 				INFOPLIST_FILE = ToDoOrganizerTests/Info.plist;
